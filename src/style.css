@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=devanagari,latin-ext');
+
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+.container {  
+  display:flex;
+  background: url('http://www.autodatz.com/wp-content/uploads/2017/05/Old-Car-Wallpapers-Hd-36-with-Old-Car-Wallpapers-Hd.jpg');
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0% 0% 85% 85% / 30% ;
+}
+.container .overlay{  
+  width: 100%;
+  padding: 5px;
+  color: #FFF;
+  text-shadow: 1px 1px 1px #333;
+  background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
+  
+}
+
+h1 {
+  display:block;
+  font-family: 'Dancing Script', cursive;
+  font-size: 60px;
+  margin-bottom: 30px;
+  margin-top: -10px;
+}
+.command{  
+  text-align:right;
+  margin-right:200px;
+  margin-top:-20px;
+  margin-bottom:20px;
+}
+input[type=file]::file-selector-button {  
+  border: none;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  padding: 10px 10px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: background .2s ease-in-out;
+}
+
+p {
+  font-size:20px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.button {
+  font-weight:600;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  color: #333;
+  background: #fff;  
+  box-shadow: 0 3px 20px 0 #0000003b;
+  
+}
+.button:hover{
+  cursor: pointer;  
+}
+
+.second{ 
+  justify-content:center;
+  gap:100px;
+  display:flex;
+  padding:10px; 
+   
+}
+lebal{
+  margin-right:15px;
+}
+input[type="range"] {     
+  cursor: pointer;
+  width: 150px;
+  
+}
+
+.bBox{
+  border-radius:8px;
+  text-align:center;
+  font-size:20px;  
+  height:50px;
+  width:40px;
+  box-shadow:
+}
+/*<input type="text" id ="border" onchange ="addBorder(this.value)" value ="0" class="bBox"/>
+*/
+
+.btn {
+    
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 14px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */  
+  border: none;
+  outline: none;  
+  border-radius: 50px;
+  color: #333;
+  background: #fff;  
+  box-shadow: 0 3px 20px 0 #0000003b;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: transparent;
+  color:#fff;
+}
+
+#can1{
+  border:solid gray 1px;
+  width:auto;
+  height:300px;
+}

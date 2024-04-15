@@ -1,0 +1,42 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+</script>
+
+<div class="container">
+  <div class="overlay">
+<header><h1>Filter<span>Magic</span>  
+</h1>  
+</header>  
+  <div class ="command">
+  <input type="button" value="Reset Image" onclick="reset()" id ="reSet" class="button"/>
+    <input type="button" value="Clear" onclick="allClear()" id ="clear" class="button"/></div>
+  <p>
+<canvas id="can1"></canvas>
+  </p>
+  <p>
+ Image <input type="file" multiple ="false" accept ="image/*" onchange="imgUpload()"id ="finput" />
+    
+    <span class="span2"><button class="btn" onclick="download()"><i class="fa fa-download"></i> </button>
+  </span></p> 
+  </div>
+  </div>
+
+<div class ="second">
+<div class="filter">
+ <p> <lebal>Filters</lebal>
+<input type="button" value="Grayscale" onclick="grayscale()" id ="change1"/ class="button"/>
+    
+  <input type="button" value="Go Red" onclick="makeRed()" id ="change2" class="button"/>
+    
+    <input type="button" value="Shades" onclick="makeShades()" id ="Clear3" class="button"/>
+   </p>
+  </div>
+  
+  <div class ="box">
+<p><lebal>Add Inside Border: </lebal><input type ="range" min ="0" max ="80" value="0"  id="rBox" onchange="addBorder(this.value)"/>
+  <input type="text" id ="border" onchange ="addBorder(this.value)" value ="0" class="bBox"/>
+  </p>
+  </div>
+</div>
+
+
